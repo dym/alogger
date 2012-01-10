@@ -1,0 +1,14 @@
+Source: alogger
+Section: unknown
+Priority: extra
+Maintainer: Dmitriy Budashny <dmitriy.budashny@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), git, erlang-base, erlang-syslog
+Standards-Version: 3.9.2
+Homepage: https://github.com/siberian-fast-food/alogger
+#Vcs-Git: git://git.debian.org/collab-maint/alogger.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/alogger.git;a=summary
+
+Package: alogger
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Simply the best logging framework for Erlang

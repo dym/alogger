@@ -1,0 +1,4 @@
+priv/ usr/lib/erlang/lib/alogger/
+include/ usr/lib/erlang/lib/alogger/
+doc/ usr/lib/erlang/lib/alogger/
+ebin/ usr/lib/erlang/lib/alogger/
